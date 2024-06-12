@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100%;
+    height:745px;
+    background-image: url(/Tesla/Image/Homepage-Model-3-Desktop-LHD-v2.jpg);
+    background-size: 100%;
+    background-position-y: -89px;
+}
+.header{
+    padding-top: 15px;
+    
+}
+#logo{
+    width: 400px;
+    height: 85px;
+    margin-top: 0px;
+    float: left;  
+    padding-left: 45px;  
+}
+.image{
+    width: 130px;
+    height: 23px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+}
+.heading{
+    width: 700px;
+    height: 85px;
+    
+    float: left;
+    padding-left: 140px;
+    font-family: apple-system, Arial, sans-serif;
+    font-size: 13px;
+    opacity: .8;
+}
+li{
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+    font-family: inherit;
+    font-size: 100%;
+    cursor: pointer;
+    display: block;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: lightblue; 
+}
+.icons{
+    width: 350px;
+    height: 85px;
+    float: left;
+    padding-left:225px ;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    margin-right: 10px;
+    border-radius: 2px;
+    padding: 2px 2px;
+}
+.material-symbols-outlined:hover{
+    background: lightblue;
+}
+.body-content{
+    width: 100%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}   
+.model3{    
+    width: 100%;
+    height: 55px;   
+}
+.modelY,.solar-roof{
+    width: 100%;
+    height: 100px;
+    font-family: "Universal Sans Display";
+}
+.solar-roof{
+    height: 50px;
+}
+p{
+    text-align: center;
+}
+.link,.link1,.link2{  
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-family:"Universal Sans Display";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px
+}
+.para,.para1{
+    font-stretch: wider;
+    opacity: 0.8;
+    font-family: apple-system, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.link1{
+    margin-top: 5px;
+    text-align: center;
+    font-family: apple-system, Arial, sans-serif;
+    font-size: 25px;
+}
+.para1{
+    margin-top: 10px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: "Universal Sans Display" , -apple-system,Arial,sans-serif;
+    opacity: .9;
+    text-align: center;
+}
+a{
+    font-size: 23px;
+    font-weight: 100;
+    color: black;
+    font-family: apple-system, Arial, sans-serif;
+}
+.dummy{
+    width: 100%;
+    height: 200px;
+    opacity: .5;
+}
+.btn{
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+.btn1,.btn3,.btn5,.btn7,.btn9,.btn11,.btn13,.btn15{
+    width: 50%;
+    height: 100px;
+    float: left;
+    padding-top: 81px;
+    padding-right: 15px;
+    text-align: right; 
+    
+}
+.btn11{
+    padding-top: 120px;
+}
+.btn13{
+    padding-top: 124px;
+
+}
+.btn2,.btn4,.btn6,.btn8,.btn10,.btn12,.btn14,.btn16{
+    width: 50%;
+    height: 100px;
+    float: left;
+    padding-top: 81px;  
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.btn12{
+    padding-top: 120px;
+}
+.btn14{
+    padding-top: 124px;
+}
+.btn9,.btn10{
+    margin-top: 160px;
+}
+.btn1-color,.btn3-color,.btn5-color,.btn7-color,.btn9-color,.btn11-color,.btn13-color,.btn15-color{
+    background: rgba(255, 255, 255, 0.966);
+    border: 1px solid;
+    border-color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;   
+    padding: 11.4px 95px; 
+    color: rgba(0, 0, 0, 0.686);
+    opacity: 1;
+    font-family: apple-system, Arial, sans-serif;
+    font-stretch:ultra-expanded;  
+}
+.btn2-color,.btn4-color,.btn6-color,.btn8-color,.btn10-color,.btn12-color,.btn14-color,.btn16-color{
+    background: rgba(0, 0, 0, 0.919);
+    color: white;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 11.4px 95px; 
+    opacity: .8;
+    font-family: apple-system, Arial, sans-serif;
+    font-stretch:ultra-expanded;
+}
+.btn9-color{
+    background: black;
+    color: white;
+    border: 3px solid grey;
+    border-bottom-color: black ;
+    border-left-color: black ;
+    border-right-color: black ;
+    border-radius: 0;
+}
+.btn10-color{
+    border: 0.1px solid white;
+    border-radius: 0;
+    
+}
+.btn14-color{
+    opacity: 1;
+}
+.btn12-color,.btn16-color{
+    background: black;
+    opacity: 1;
+}
+.btn16-color{
+    margin-top: 370px;
+}
+.btn15-color{
+    margin-top: 370px;
+}
+.btn8-color{
+    opacity: 1;
+}
+.btn4-color{
+    background-color: black;
+}
+.div2  .body-content2{
+    background-image: url(/Tesla/Image/Homepage-Model-Y-Desktop-Global.jpeg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;   
+    padding-top: 100px;
+}
+.btnfirst,.btnsecond,.btnthird,.btnfifth,.btnsixth{
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+.btneighth
+{
+    margin-top: 410px;
+    padding-left: 605px;
+}
+.btn17-color{
+background: rgba(255, 255, 255, 0.966);
+border: 1px solid;
+border-color: white;
+font-size: 13px;
+border-radius: 4px;
+cursor: pointer;   
+padding: 11.4px 95px; 
+color: rgba(0, 0, 0, 0.686);
+opacity: 1;
+font-family: apple-system, Arial, sans-serif;
+font-stretch:ultra-expanded;
+}
+
+.div3,.body-content3
+{
+    background-image: url(/Tesla/Image/Homepage-Model-X-Desktop-v2.jpg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;
+}
+.body-content3,.body-content4,.body-content6{
+    padding-top: 100px;
+}
+.div4{
+    background-image: url(/Tesla/Image/Homepage-Model-S-Desktop-v2.jpg);
+    background-size: 100%;
+    height:745px;
+    background-position-y: -89px;
+}
+.link2,.para2{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-family: apple-system, Arial, sans-serif;
+}
+.link2{
+    font-family:"Universal Sans Display";
+    font-size: 24px;
+    font-weight: 500;
+}
+.para2{
+    font-size: 14px;
+}
+.ModelS-color,.solar-panels{
+    color: white;
+    font-size: 37px;
+    font-family: apple-system, Arial, sans-serif;
+    font-weight: 600;
+    font-stretch: wider ;
+}
+.div5{
+    background-image: url(/Tesla/Image/Homepage-Cybertruck-Desktop.jpg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;
+
+}
+.div6,.body-content6{
+    background-image: url(/Tesla/Image/Homepage-SolarPanels-01-Desktop.jpeg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;
+    
+}
+.solar-panels{
+    width: 100%;
+    height: 50px;
+    
+}
+.virtual{
+    color: white;
+    text-align: center;
+    height: 50px;  
+    font-size: 15px;  
+}
+.virtual1
+{
+    padding-top: 5px;
+    padding-left: 628px;
+}
+.div7{
+    background-image: url(/Tesla/Image/Homepage-SolarRoof-Desktop-Global.jpeg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;
+}
+.body-content7{
+    padding-top: 100px;
+}
+.div8{
+    background-image: url(/Tesla/Image/Homepage-Powerwall-01-Desktop.jpg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;
+
+}
+.body-content8{
+    padding-top: 105px;
+}
+.div9{
+    background-image: url(/Tesla/Image/Homepage-Accessories-Desktop-NA-APAC.jpg);
+    background-size: 100%;
+    height: 745px;
+    background-position-y: -89px;
+}
+.body-content9{
+    padding-top: 110px;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background: black;
+}
+.paragraph{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.footer{
+    padding-top: 20px;
+    font-stretch: wider;
+}
+.details{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.footer2,.footer3,.footer4{
+margin-top: 15px;
+}
+.bottom-details{
+    margin-top: 70px;
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    display: block;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: white;
+}
+.footer5{
+    padding-left: 460px;
+}
+.bottom-details:hover{
+    background-color: black;
+}
+.cybertruck{
+    width: 100%;
+    height: 300px;
+    padding-left:510px ;
+    padding-top: 93px;
+}
+img{
+    width: 450px;
+    height: 150px;
+}
+.btnfourth{
+    margin-top: 50px;
+    width: 100%;
+    height:400px;
+}
+.btn2-color:hover,.btn4-color:hover,.btn6-color:hover,.btn8-color:hover,.btn10-color:hover,.btn12-color:hover,.btn14-color:hover,.btn16-color:hover{
+    background: rgba(211, 211, 211, 0.216);
+    border-color: rgba(211, 211, 211, 0.216);
+    
+    
+}
+
+
